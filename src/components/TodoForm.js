@@ -30,7 +30,7 @@ const TodoForm = ({ addTodo }) => {
         value={todo.task}
         onChange={handleTaskInputChange}
       ></TextField>
-      <button type="submit">submit</button>
+      <Button type="submit">submit</Button>
     </form>
   );
 };
